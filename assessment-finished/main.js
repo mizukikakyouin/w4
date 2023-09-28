@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'It was 94 fahrenheit at Tsuda, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
+const storyText = 'It was 94 fahrenheit at Harazyuku, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
 const insertX = ['衣織', '美月', '舞香'];
 const insertY = ['さいたまスーパーアリーナ', 'ディズニー', '原宿'];
 const insertZ = ['クレープを食べた', 'タワー・オブ・テラーに乗って後悔した', 'ペンライトを振っていた'];
