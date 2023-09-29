@@ -7,10 +7,11 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'It was 94 fahrenheit at Harazyuku, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
+const storyText = '東京には沢山のスポットがあり、多くの人が溢れかえっている情報過多な街だ。地方出身の :insertx: は上京してきた時のために遥々足を運んだ。:inserty:に着いた時、 :insertx:は自分という人間を忘れそうになった。こんなに沢山人がいると思うと、私はただの「女子高校生A」に過ぎなかったからだ。東京の人はみんな早歩きで忙しそう。誰も私について深く追及してこないから :insertz:。:insertX:はそっと:inserts:に電話した。「私の馬鹿話を聞いてくれ」と。;
 const insertX = ['衣織', '美月', '舞香'];
-const insertY = ['さいたまスーパーアリーナ', 'ディズニー', '原宿'];
-const insertZ = ['クレープを食べた', 'タワー・オブ・テラーに乗って後悔した', 'ペンライトを振っていた'];
+const insertY = ['新宿', '浅草', '表参道'];
+const insertZ = ['少し寂しくなった', 'とても嬉しかった', '腹が立った'];
+const insertS =['母親','友達','教師'];
 
 randomize.addEventListener('click', result);
 
