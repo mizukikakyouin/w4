@@ -10,7 +10,7 @@ function randomValueFromArray(array){
 const storyText = '東京には沢山のスポットがあり、多くの人で溢れかえっている情報過多な街である。地方出身の衣織は、街並みを視界におさめるだけでも体力を奪われてしまう気がした。だから:inserty:に着いた時、自分という人間を忘れそうになった。だって人通りが激しいと、衣織はただの「通行人A」に過ぎないから。「東京の人はみんな早歩きで忙しそうだな。でも、誰も私について深く追及してこないのは:insertz:。」衣織は、そっと:insertx:に電話した。「私の馬鹿話を聞いてくれ」と。';
 const insertX = ['母親','ある人','友達'];
 const insertY = ['新宿','浅草','表参道'];
-const insertZ = ['少し寂しくなった','とても嬉しかった','腹が立った'];
+const insertZ = ['ちょっと寂しい','嬉しいかも','イライラする'];
 
 randomize.addEventListener('click', result);
 
