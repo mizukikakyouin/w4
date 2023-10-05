@@ -30,7 +30,7 @@ function result() {
 
   if (customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replace('Bob', name);
+    newStory = newStory.replace('衣織', name);
   }
 
   if (document.getElementById("uk").checked) {
