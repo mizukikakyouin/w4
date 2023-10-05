@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = '東京には沢山のスポットがあり、多くの人で溢れかえっている情報過多な街である。地方出身の私は、街並みを視界に入れるだけでも精一杯だった。:inserty:に着いた時、自分という人間を忘れそうになった。こんなに沢山の人に紛れていると、私はただの「通行人A」に過ぎなかったからだ。東京の人はみんな早歩きで忙しそう。誰も私について深く追及してこないから:insertz:。私はそっと:insertx:に電話した。「私の馬鹿話を聞いてくれ」と。';
+const storyText = '東京には沢山のスポットがあり、多くの人で溢れかえっている情報過多な街である。地方出身の衣織は、街並みを視界に入れるだけでも精一杯だった。:inserty:に着いた時、自分という人間を忘れそうになった。人通りが激しいと、衣織はただの「通行人A」に過ぎないから。東京の人はみんな早歩きで忙しそう。誰も私について深く追及してこないから:insertz:。衣織は、そっと:insertx:に電話した。「私の馬鹿話を聞いてくれ」と。';
 const insertX = ['母親','ある人','友達'];
 const insertY = ['新宿','浅草','表参道'];
 const insertZ = ['少し寂しくなった','とても嬉しかった','腹が立った'];
@@ -30,7 +30,7 @@ function result() {
 
   if (customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replace('私', name);
+    newStory = newStory.replace('衣織', name);
   }
 
   story.textContent = newStory;
